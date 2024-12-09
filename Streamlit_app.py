@@ -50,6 +50,7 @@ with abas[2]:
     st.header("Práticas de DevOps")
     st.write("Simulação de monitoramento e logs de processos.")
 
+    # Evitar repetição excessiva de ações
     if st.button("Iniciar Processo de Deploy Simulado"):
         st.write("Iniciando deploy...")
         for i in range(101):
